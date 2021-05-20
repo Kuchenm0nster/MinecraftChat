@@ -11,13 +11,13 @@ This is a very lightweight application... ~500kb without modules. It is built on
 
 ### Installing on your own server
 ```
-git clone https://github.com/AlexKvazos/MinecraftChat
+git clone https://github.com/Kuchenm0nster/MinecraftChat
 cd MinecraftChat
 npm install && grunt build
 npm start
 ```
 
-This will start the application on port `3000` or the one specified by the `PORT`environment variable.
+This will start the application on port `3000` or the one specified by the `PORT` environment variable. Alternatively copy the `.env.dist` to `.env` and edit the port.
 
 ### Grunt tasks
 
